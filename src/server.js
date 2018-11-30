@@ -15,10 +15,7 @@ app.use(bodyParser.json())
 app.use(morgan('short'))
 
 app.get('/', function (req, res) {
-  models.User.findAll()
-    .then((users) => {// Get all the users defined
-      res.send("Hello world")//app.get('/', function (req, res) {
-    })
+    res.send("Hello world")//app.get('/', function (req, res) {
 })
 
 //      res.json(users)
