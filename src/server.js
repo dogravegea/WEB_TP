@@ -5,6 +5,7 @@ const app = express()
 const models = require('./models/index');
 
 console.log("ok")
+console.log("modification 2")
 
 // Decode json and x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }))
